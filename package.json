@@ -1,0 +1,14 @@
+{
+  "name": "incremental-index-builder",
+  "version": "1.0.0",
+  "description": "Node.js 在线二级索引构建器：快照 + 写入日志追赶 + 原子切换",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test 'test/**/*.test.js'"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
